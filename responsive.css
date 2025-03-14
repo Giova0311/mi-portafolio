@@ -1,0 +1,144 @@
+@media (max-width: 600px) {
+    body {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 0 15px;
+    }
+
+    .section {
+        padding: 10px;
+    }
+
+    #sobre-mi {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    #sobre-mi .info {
+        max-width: 60%;
+        text-align: justify;
+    }
+
+    #sobre-mi .imagen img {
+        max-width: 100%;
+        width: 400px;
+        height: 400px;
+        border-radius: 15px;
+        object-fit: cover;
+    }
+
+    .proyectos-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .proyecto {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    #contacto a img {
+        width: 40px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    #sobre-mi {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #sobre-mi .info {
+        max-width: 100%;
+    }
+
+    #sobre-mi .imagen img {
+        width: 60%;
+        height: auto;
+    }
+
+    .proyectos-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .proyecto {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    #contacto a img {
+        width: 45px;
+    }
+}
+
+@media (min-width: 1025px) {
+    body {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    nav ul {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .section {
+        padding: 60px;
+    }
+
+    #sobre-mi {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+    }
+
+    #sobre-mi .info {
+        max-width: 60%;
+    }
+
+    #sobre-mi .imagen img {
+        max-width: 100%;
+        width: 400px;
+        height: 400px;
+        border-radius: 15px;
+        object-fit: cover;
+    }
+
+    .proyectos-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .proyecto {
+        width: 40%;
+        margin-bottom: 30px;
+    }
+
+    #contacto a img {
+        width: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .columnas {
+        flex-direction: column;
+    }
+}
